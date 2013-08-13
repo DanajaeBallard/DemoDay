@@ -41,3 +41,9 @@ body {
 .navbar .nav > .active > a:focus {
   color: #191919;
 }
+
+h1
+h3{
+border-style:solid;
+border-color:pink;
+}
