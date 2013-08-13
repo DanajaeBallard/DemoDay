@@ -42,8 +42,7 @@ body {
   color: #191919;
 }
 
-h1
-h3 {
+li {
 border-style:solid;
-border-color:pink;
+border-color:black;
 }
