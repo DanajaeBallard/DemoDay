@@ -7,3 +7,37 @@ body {
 .container {
          background-color: PaleVioletRed;
 }
+
+.navbar-inner {
+  background-image: -moz-linear-gradient(top, #db7093, #ffffff);
+  background-image: -ms-linear-gradient(top, #db7093, #ffffff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#db7093), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #db7093, #ffffff);
+  background-image: -o-linear-gradient(top, #db7093, #ffffff);
+  background-image: linear-gradient(top, #db7093, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'db7093, endColorstr='#'ffffff, GradientType=0);
+}
+
+.navbar .brand {
+  padding: 8px 20px 12px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.navbar .divider-vertical {
+  height: 41px;
+  background-color: #ffffff;
+  border-right: 1px solid #c6c6c6;
+}
+
+.navbar .nav > li > a {
+  padding: 10px 10px 11px;
+  font-size: 14px;
+  color: #191919;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #191919;
+}
