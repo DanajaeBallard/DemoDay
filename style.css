@@ -6,6 +6,8 @@ body {
 
 .container {
          background-color: PaleVioletRed;
+         padding-right: 75px;
+         padding-left: 75px;
          
 }
 
