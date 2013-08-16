@@ -6,6 +6,8 @@ body {
 
 .container {
          background-color: PaleVioletRed;
+         padding-left: 25px;
+         
 }
 
 .navbar-inner {
@@ -43,8 +45,5 @@ body {
 }
 
 
-.resume {
-        padding-right:25px;
-}
 
 
